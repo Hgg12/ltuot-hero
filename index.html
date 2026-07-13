@@ -14,14 +14,24 @@
     />
     <title>LTUOT · Long-term Underwater Object Tracking Dataset</title>
 
+    <!-- Apply saved theme before paint to avoid a flash of the wrong palette -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('ltuot-theme') || 'glacier';
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Geist:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/ltuot-hero/assets/index-oxryiozV.js"></script>
-    <link rel="stylesheet" crossorigin href="/ltuot-hero/assets/index-BABbsJwp.css">
+    <script type="module" crossorigin src="/ltuot-hero/assets/index-D2cqYcYZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/ltuot-hero/assets/index-sv5SFVe0.css">
   </head>
   <body>
     <div id="root"></div>
